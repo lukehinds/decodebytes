@@ -5,7 +5,8 @@
     "ghost-api": "v3"
   },
   "author": {
-    "email": "rg.rorygibson+ghost@gmail.com"
+    "name": "Luke Hinds",
+    "email": "lhinds@protonmail.com"
   },
   "config": {
     "posts_per_page": 5

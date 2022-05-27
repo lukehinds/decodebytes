@@ -1,6 +1,7 @@
 .PHONY: build up start down destroy stop restart logs logs-api ps login-timescale login-api db-shell
 
 buildup:
+	rm -rf tmp/
 	docker-compose -f docker-compose.yml up -d --build
 
 build:

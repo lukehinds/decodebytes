@@ -1,5 +1,5 @@
 # Choose the ghost version
-FROM ghost
+FROM ghost:latest
 LABEL maintainer="lukehinds"
 
 # Set the working directory.

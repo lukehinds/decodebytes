@@ -1,6 +1,6 @@
 {
-  "name": "ghostwriter",
-  "version": "1.9.5",
+  "name": "decodebytes",
+  "version": "0.1",
   "engines": {
     "ghost-api": "v3"
   },
@@ -11,5 +11,5 @@
   "config": {
     "posts_per_page": 5
   },
-  "keywords": ["ghost-theme"]
+  "keywords": ["decodebytes-theme"]
 }

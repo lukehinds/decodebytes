@@ -1,3 +1,5 @@
-{{#foreach navigation}}
-    <li class="site-nav-item"><a class="js-ajax-link" title="{{label}} | {{@site.title}}" href="{{url absolute="true"}}">{{label}}</a></li>
-{{/foreach}}
+<ul>
+	{{#foreach navigation}}
+		<li class="nav-{{slug}}{{#if current}} active{{/if}}"><a href="{{url absolute="true"}}"><span>{{label}}</span></a></li>
+	{{/foreach}}
+</ul>

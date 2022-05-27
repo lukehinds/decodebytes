@@ -12,7 +12,7 @@ services:
       - './.tmp/data:/var/lib/ghost/content/data'
       - './.tmp/images:/var/lib/ghost/content/images'
       - './.tmp/settings:/var/lib/ghost/content/settings'
-      - './Pico:/var/lib/ghost/content/themes/Pico'
+      - './:/var/lib/ghost/content/themes/attila'
     ports:
       - "3102:2368"
     environment:

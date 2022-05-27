@@ -2,8 +2,8 @@ version: '3.7'
 
 services:
   ghost-theme-docker:
-    image: ghost-theme-docker:1.0
-    container_name: ghost-theme-docker
+    image: ghost:1.0
+    container_name: ghost
     restart: unless-stopped
     build:
       context: .
